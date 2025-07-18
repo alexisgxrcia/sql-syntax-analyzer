@@ -49,9 +49,6 @@ sql-syntax-analyzer/
 ```bash
 # Python 3.7 or higher
 python --version
-
-# MySQL 8.0 or higher
-mysql --version
 ```
 
 ### Dependency Installation
