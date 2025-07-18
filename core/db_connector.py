@@ -1,12 +1,6 @@
 import mysql.connector
-import os
 
 DB_CONFIG = {
-    #"db_name": "b9ypce7rqqi8mykx8czk",
-    #"host": "b9ypce7rqqi8mykx8czk-mysql.services.clever-cloud.com",
-    #"port": 3306,
-    #"user": "uhvtvrr8d9tobfkz",
-    #"password": "VCW3xvGipBSlYFmTLfxA"
     "db_name": "inscritos",
     "host": "localhost",
     "port": 3306,
