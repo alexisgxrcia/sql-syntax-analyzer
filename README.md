@@ -1,14 +1,4 @@
 # SQL Syntax Analyzer
-## *Advanced SQL Parser with Lexical, Syntactic, and Semantic Analysis*
-
-A comprehensive SQL compiler front-end implementing classical compiler construction phases, designed as an educational framework for understanding formal language processing and database query analysis.
-
-![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
-![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)
-![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-
-## 🎯 Project Overview
 
 This project implements a complete **SQL compiler front-end** demonstrating fundamental principles of compiler construction applied to SQL query processing. It serves as an educational tool for understanding:
 
