@@ -1,6 +1,6 @@
 # SQL Syntax Analyzer
 
-This project implements a complete **SQL compiler front-end** demonstrating fundamental principles of compiler construction applied to SQL query processing. It serves as an educational tool for understanding:
+This project was developed as an educational framework for demonstrating core compiler construction principles through the implementation of a complete SQL compiler front-end. It focuses on SQL query processing and database system integration, serving as a learning tool for understanding how compilers analyze and transform SQL code.
 
 - **Lexical Analysis**: Token recognition and symbol table management
 - **Syntax Analysis**: Grammar validation and parse tree construction  
@@ -17,53 +17,6 @@ SQL Input → Lexical Analysis → Syntax Analysis → Semantic Analysis → Cod
      ↓              ↓               ↓                ↓                ↓             ↓
  Raw SQL      →   Tokens      →   Parse Tree   →  Symbol Table  →   Validated  →  Results
                                                                       Query
-```
-
-### 📁 Component Structure
-
-```
-sql-syntax-analyzer/
-├── app.py                          # Main GUI Application & Controller
-├── core/
-│   ├── scanner_dml.py              # Lexical Analyzer (Tokenizer)
-│   ├── analyzer_syntax.py          # Syntax Analyzer (Parser)
-│   ├── analyzer_semantic.py        # Semantic Analyzer
-│   ├── syntax_errors.py            # Error Handler & Recovery System
-│   └── db_connector.py             # Database Abstraction Layer
-└── README.md
-```
-
-## 🚀 Installation & Setup
-
-### Prerequisites
-```bash
-# Python 3.7 or higher
-python --version
-```
-
-### Dependency Installation
-```bash
-pip install mysql-connector-python
-pip install customtkinter
-pip install Pillow
-```
-
-### Database Configuration
-**Configure Connection** in `core/db_connector.py`:
-```python
-DB_CONFIG = {
-    "db_name": "inscritos",
-    "host": "localhost",
-    "port": 3306,
-    "user": "root",
-    "password": "your_password"
-}
-```
-
-### Execution
-```bash
-cd sql-syntax-analyzer
-python app.py
 ```
 
 ### Token Classification System
@@ -89,7 +42,3 @@ The system implements a hierarchical error classification scheme:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Developed as an educational framework for demonstrating compiler construction principles applied to SQL query processing and database system integration.**
