@@ -8,7 +8,7 @@ This project was developed as an educational framework for demonstrating core co
 - **Error Handling**: Comprehensive error detection and recovery
 - **Database Integration**: Real-time query execution and schema validation
 
-## 🏗️ System Architecture
+## System Architecture
 
 The system follows the **classical compiler pipeline** architecture:
 
@@ -39,6 +39,6 @@ The system implements a hierarchical error classification scheme:
 - **Level 3**: Semantic Errors (type mismatches, undefined references)
 - **Level 4**: Runtime Errors (constraint violations, execution failures)
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
